@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/add-task" element={<AddTask />} />
-        <Route path="/update-task/:taskId" element={<UpdateTask />} />
+        <Route path="/update-task/:id" element={<UpdateTask />} />
       </Routes>
     </BrowserRouter>
   );
